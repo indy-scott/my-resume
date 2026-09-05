@@ -1,0 +1,11 @@
+# Local private resume inputs
+private/contact.md
+private/source/
+
+# Generated job-specific resumes
+output/
+
+# Editor and OS files
+.DS_Store
+*.swp
+*~

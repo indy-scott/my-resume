@@ -1,0 +1,19 @@
+# Private Contact Data
+
+This file is a local input for generated application documents. Copy it to `contact.md`; that filename is excluded from Git.
+
+- Full name:
+- Street address:
+- City, state, postal code:
+- Phone:
+- Email:
+- LinkedIn:
+- GitHub:
+
+## References
+
+- Name:
+  - Organization:
+  - Relationship:
+  - Phone:
+  - Email:

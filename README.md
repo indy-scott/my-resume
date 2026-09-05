@@ -1,11 +1,13 @@
 # Scott Hepburn — Resume Source
 
-This repository is the canonical source for Scott Hepburn's career history, skills, and selected projects. It is intentionally broader than a one- or two-page resume so tailored resumes can select the experience most relevant to a specific role without inventing details.
+This repository is the canonical source for Scott Hepburn's complete career history, skills, and projects. It is designed to accumulate more detail than any single resume should contain, allowing job-specific resumes to select relevant evidence without inventing or losing information.
 
 ## Repository structure
 
-- [`MASTER_RESUME.md`](MASTER_RESUME.md) — complete public-safe career source
+- [`MASTER_RESUME.md`](MASTER_RESUME.md) — concise, public-safe consolidated resume
+- [`experience/`](experience/) — detailed, expandable records for every role
 - [`projects/`](projects/) — current and completed project records
+- [`templates/experience.md`](templates/experience.md) — template for expanding a role
 - [`templates/project.md`](templates/project.md) — template for adding project evidence
 - `private/contact.md` — local-only contact details used when generating applications; excluded from Git
 - `private/source/` — original resume files; excluded from Git
@@ -14,7 +16,7 @@ This repository is the canonical source for Scott Hepburn's career history, skil
 
 When generating a job-specific resume:
 
-1. Treat `MASTER_RESUME.md` and `projects/` as factual source material.
+1. Treat `experience/`, `projects/`, and `MASTER_RESUME.md` as factual source material.
 2. Select and reorder material to match the job posting; do not add unsupported claims.
 3. Preserve employers, titles, and dates.
 4. Prefer quantified outcomes when the source provides them.
@@ -23,4 +25,4 @@ When generating a job-specific resume:
 
 ## Updating the source
 
-Add durable career facts to `MASTER_RESUME.md`. Give substantial projects their own Markdown file under `projects/`, using the project template. Capture technologies, scope, actions, outcomes, and verification while the details are fresh.
+Add every role to `experience/`, including details that may not fit a normal resume. Record responsibilities, accomplishments, technologies, scale, collaborators, and measurable outcomes as they become available. Keep `MASTER_RESUME.md` concise and synchronized with the role records. Give substantial projects their own Markdown file under `projects/`. Never remove useful source facts merely because they are not relevant to the current target role.

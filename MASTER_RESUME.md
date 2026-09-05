@@ -77,6 +77,17 @@ IT operations and infrastructure leader with 25+ years of experience spanning en
 - Served as team lead for IP networking, Linux administration, and virtual-machine and hardware performance analysis.
 - Managed maintenance and upgrade projects for clustered UNIX and Solaris server platforms supporting telecom services.
 
+### Purdue University Computing Center — Assistant Network Systems Engineer
+
+**West Lafayette, Indiana · 1996–1999**
+
+- Supported network and computing operations for the Purdue University Computing Center.
+- Detailed responsibilities, projects, technologies, and accomplishments will be added to the [role record](experience/purdue-university.md) as they are documented.
+
+## Detailed Work History
+
+See [`experience/`](experience/) for expandable role records containing responsibilities, accomplishments, technologies, context, and details that may not belong in every generated resume.
+
 ## Selected Projects
 
 See [`projects/`](projects/) for project records with scope, technologies, outcomes, and status.

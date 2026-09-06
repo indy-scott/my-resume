@@ -30,7 +30,7 @@ IT operations and infrastructure leader with 25+ years of experience spanning en
 ## Technology Inventory
 
 - **Platforms and infrastructure:** Linux, UNIX, Solaris, OpenStack, virtualized environments, VDI, Windows, macOS
-- **Identity and endpoint:** Microsoft Azure AD, Microsoft Intune / Endpoint Manager, Windows Active Directory, Jamf, Okta, SAML
+- **Identity and endpoint:** Microsoft Azure AD, Microsoft Intune / Endpoint Manager, Microsoft Autopilot, Windows Active Directory, Jamf, Okta, SAML, PowerShell
 - **Enterprise tools:** Google Workspace, Slack Enterprise, Freshservice, Freshdesk, ServiceNow
 - **Automation and operations:** Ansible, infrastructure as code, REST APIs, Nagios, MongoDB, HP Vertica
 - **Networking and telecom:** IP networking, VPN certificates, NFV, clustered telecom platforms
@@ -63,10 +63,10 @@ IT operations and infrastructure leader with 25+ years of experience spanning en
 
 **Indianapolis, Indiana · April 2019–March 2021**
 
-- Designed and implemented an endpoint deployment and management architecture using Microsoft Intune / Endpoint Manager, aligned with Jamf capabilities and branding.
-- Built application packages, VPN certificate deployments, configuration profiles, and policies aligned with IT service and security requirements.
-- Enabled zero-touch device drop shipment from vendor to end user with automated setup and no manual IT interaction.
-- Began migrating devices from on-premises Active Directory to Microsoft Azure AD and integrated device inventory with ServiceNow.
+- Solely administered Microsoft Endpoint Manager for a global fleet of just over 3,000 endpoints (~70% macOS / ~30% Windows) and owned Intune packaging, Autopilot conversion scripts, and Windows deployment.
+- Enabled zero-touch vendor-to-user drop shipment (~10–15 devices/month), cutting new-device tickets by roughly 30–40% and delivery from about two weeks to a few days.
+- Completed the Windows-fleet migration to Azure AD and made Okta the identity source of truth for Windows AD and Azure AD, including macOS endpoints.
+- Partnered on Microsoft Graph API connections so ServiceNow could pull live Intune inventory into the CMDB.
 
 ### AT&T — Senior Advanced Technical Support
 

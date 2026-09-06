@@ -32,7 +32,7 @@ IT operations and infrastructure leader with 25+ years of experience spanning en
 - **Platforms and infrastructure:** Linux, UNIX, Solaris, OpenStack, virtualized environments, VDI, Windows, macOS
 - **Identity and endpoint:** Microsoft Azure AD, Microsoft Intune / Endpoint Manager, Windows Active Directory, Jamf, Okta, SAML
 - **Enterprise tools:** Google Workspace, Slack Enterprise, Freshservice, Freshdesk, ServiceNow
-- **Automation and operations:** Ansible, infrastructure as code, REST APIs, Nagios, MongoDB
+- **Automation and operations:** Ansible, infrastructure as code, REST APIs, Nagios, MongoDB, HP Vertica
 - **Networking and telecom:** IP networking, VPN certificates, NFV, clustered telecom platforms
 
 ## Professional Experience
@@ -72,10 +72,11 @@ IT operations and infrastructure leader with 25+ years of experience spanning en
 
 **Noblesville, Indiana · September 1999–April 2019**
 
-- Performed production operations in a DevOps environment for a cloud-based telecom network-functions-virtualization solution hosted in AT&T's private OpenStack cloud.
-- Deployed and maintained NFV solutions using MongoDB, REST APIs, Nagios, and infrastructure as code with Ansible.
-- Served as team lead for IP networking, Linux administration, and virtual-machine and hardware performance analysis.
-- Managed maintenance and upgrade projects for clustered UNIX and Solaris server platforms supporting telecom services.
+- Operated a RADCOM cellular network-intelligence platform on AT&T's OpenStack private cloud, expanding it from a few dozen VMs to approximately 250 with automated provisioning.
+- Tuned HP Vertica, Ansible, MongoDB, and REST APIs so major upgrades could redeploy and auto-provision the full platform under 99.999% telecom change control.
+- Grew retained collection from about one day of data to more than two weeks, supporting faster cellular-failure isolation and FirstNet performance analysis.
+- Served as an individual-contributor technical lead on a five-person NFV team, covering IP networking, Linux, and VM/hardware performance analysis.
+- Managed maintenance and upgrade projects for clustered UNIX and Solaris service-control platforms supporting Midwest SS7 telecommunications services.
 
 ### Purdue University Computing Center — Assistant Network Systems Engineer
 

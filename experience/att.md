@@ -10,7 +10,7 @@ status: completed
 
 ## Scope
 
-Provided senior operational support across telecom service platforms, including cloud-hosted network-functions virtualization and clustered UNIX/Solaris systems. Served as a technical lead for Linux, networking, virtualization, performance analysis, maintenance, and upgrades.
+Provided senior operational support across telecom service platforms, including a large-scale RADCOM network-intelligence NFV platform on AT&T's OpenStack private cloud and clustered UNIX/Solaris Advanced Intelligent Network systems. Served as an individual-contributor technical lead for Linux, networking, virtualization, performance analysis, maintenance, and upgrades.
 
 ## Internal Roles
 
@@ -43,23 +43,44 @@ Provided senior operational support across telecom service platforms, including 
 
 ### Senior Advanced Technical Support Manager — Cloud NFV Operations
 
-**Mid-2012–April 2019**
+**Mid-2012–April 2019 · Individual-contributor role**
 
-- Performed production operations in a DevOps environment for a cloud-based telecom NFV vendor solution hosted in AT&T's private OpenStack cloud.
-- Deployed and maintained NFV solutions using MongoDB, REST APIs, Nagios, and infrastructure as code with Ansible.
-- Served as team lead for IP networking, Linux administration, and virtual-machine and hardware performance analysis.
+- Operated and supported a RADCOM network-intelligence platform that collected device and network data from AT&T's cellular network at a scale the team treated as first-of-its-kind for this class of collection platform.
+- Supported the platform as a fully virtualized deployment running on AT&T's custom OpenStack private cloud.
+- Operated platform data in an HP Vertica cluster of more than 100 virtual machines.
+- Grew retained collection from roughly one day of data at project start to more than two weeks by departure, which allowed downstream systems to use the data more effectively.
+- Enabled faster isolation of cellular-network failures by delivering more detailed troubleshooting data.
+- Supported performance analysis used to prioritize cellular-network improvements for AT&T's FirstNet rollout, contributing to more reliable communications for first responders.
+- Planned RADCOM deployments, updated vendor-supplied installation configurations, and modified Ansible automation to match deployment scale and environment requirements.
+- Performed database-administration and performance-tuning work to keep HP Vertica operating effectively in the OpenStack environment.
+- Administered vendor-supplied Nagios monitoring and used additional alerting systems for platform alarms and operational visibility.
+- Partnered with the internal data-center team to deploy HP servers and connect them to OpenStack Ironic for bare-metal provisioning into the cloud cluster.
+- Expanded the platform's virtual-machine footprint from a few dozen VMs to approximately 250.
+- Major platform upgrades required a near-complete redeployment; by departure the system could be upgraded, deployed, and automatically provisioned across those approximately 250 VMs.
+- Reached that automation by troubleshooting MongoDB settings, adjusting Ansible scripts, correcting REST API setup, analyzing IP network traffic, coordinating firewall changes with security teams, configuring and deploying additional OpenStack servers, and monitoring through multiple alerting systems.
+- Served as technical team lead while remaining an individual contributor, leading planning meetings and designing deployment plans and schedules.
+- Provided technical direction for IP networking, Linux administration, and virtual-machine and hardware performance analysis.
+- Worked on a five-person core NFV team within AT&T's larger tier-3 Advanced Technical Support organization.
+- Coordinated regularly with RADCOM and RADCOM's contracted deployment-support team at AMDOCS.
+- Aligned goals, schedules, and priorities with upper management.
+- After each location deployment, coordinated with developers to verify application behavior, with SS7 and IP networking teams to verify system communications, and with other support organizations as needed.
+- Continued the same 24×7 on-call rotation used throughout the AT&T tenure: two weeks on, covering incidents around the clock during on-call weeks.
+- While on call, every team member was expected to handle diagnosis, vendor coordination, change execution, stakeholder communication, restoration, and post-incident analysis; the five-person team typically shared those responsibilities during incidents.
+- Executed planned maintenance inside AT&T's defined window of 10:00 p.m. to 5:00 a.m. Central Time, with rollback time built into every change.
+- Near the end of each window, made a strict continue-or-abort decision based on the time remaining for rollback.
+- Operated under telecom change-control rules targeting 99.999% uptime: all software and hardware changes were implemented only during the maintenance window.
+- Prepared deployment scripts, Ansible updates, and configuration changes during the day, but nothing was committed or implemented until the window.
 
 ## Cross-Role Responsibilities and Accomplishments
 
 - Managed maintenance and upgrade projects for clustered UNIX and Solaris server platforms supporting telecom services.
+- Participated in a 24×7 on-call rotation in every AT&T role, rotating every two weeks.
 
 ## Technologies and Practices
 
-Alcatel-Lucent eCS Service Control Point (SCP), Advanced Intelligent Network (AIN), SS7, Caller ID, Local Number Portability, call-control services, Solaris x86, UNIX KornShell scripting, Oracle 9i, vendor-developed high-availability clustering, Lucent 5ESS alarming and monitoring, external alarm collection and reporting, Linux, UNIX, OpenStack, NFV, MongoDB, REST APIs, Nagios, Ansible, infrastructure as code, virtual machines, IP networking, clustered systems, hardware and performance analysis, telecom operations.
+Alcatel-Lucent eCS Service Control Point (SCP), Advanced Intelligent Network (AIN), SS7, Caller ID, Local Number Portability, call-control services, Solaris x86, UNIX KornShell scripting, Oracle 9i, vendor-developed high-availability clustering, Lucent 5ESS alarming and monitoring, external alarm collection and reporting, RADCOM, AMDOCS, HP Vertica, Linux, UNIX, OpenStack private cloud, NFV, MongoDB, REST APIs, Nagios, Ansible, infrastructure as code, virtual machines, IP networking, clustered systems, hardware and performance analysis, telecom operations, tier-3 support, 99.999% uptime change control.
 
 ## Details to Expand
 
-- Number and geographic scope of NFV systems supported
-- NFV availability, on-call, maintenance-window, and escalation responsibilities
-- Cloud operations team structure and whether the senior role remained an individual-contributor classification
-- Major NFV installations, upgrades, outages, recoveries, and measurable service outcomes
+- Geographic scope, traffic volume, and similar NFV scale figures are not for public use
+- Remaining NFV depth is optional; role is otherwise sufficiently documented for resume generation

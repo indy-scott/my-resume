@@ -60,8 +60,8 @@ Provided senior operational support across telecom service platforms, including 
 - Reached that automation by troubleshooting MongoDB settings, adjusting Ansible scripts, correcting REST API setup, analyzing IP network traffic, coordinating firewall changes with security teams, configuring and deploying additional OpenStack servers, and monitoring through multiple alerting systems.
 - Served as technical team lead while remaining an individual contributor, leading planning meetings and designing deployment plans and schedules.
 - Provided technical direction for IP networking, Linux administration, and virtual-machine and hardware performance analysis.
-- Worked on a five-person core NFV team within AT&T's larger tier-3 Advanced Technical Support organization.
-- Coordinated regularly with RADCOM and RADCOM's contracted deployment-support team at AMDOCS.
+- Worked on a four-person core NFV team within AT&T's larger tier-3 Advanced Technical Support organization.
+- Coordinated with tier-1 support teams, developers of custom applications running on the platform, and primary vendors AMDOCS and RADCOM.
 - Aligned goals, schedules, and priorities with upper management.
 - After each location deployment, coordinated with developers to verify application behavior, with SS7 and IP networking teams to verify system communications, and with other support organizations as needed.
 - Continued the same 24×7 on-call rotation used throughout the AT&T tenure: two weeks on, covering incidents around the clock during on-call weeks.
